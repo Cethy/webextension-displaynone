@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "DisplayNone",
+  "version": "1.0",
+
+  "description": "Add a context action to hide element from a webPage (and a second one to reset all modifications).",
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contextAction-helper.js"]
+    }
+  ],
+
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ]
+}
