@@ -1,7 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "DisplayNone",
+  "name": "Display None",
   "version": "1.0",
+  "author": "Charles-Elie Pidancet",
+  "homepage_url": "https://github.com/Cethy/webextension-displaynone",
 
   "description": "Add a context action to hide element from a webPage (and a second one to reset all modifications).",
 
